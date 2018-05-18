@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main{
+    width:700px;
+    height:300px;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1{
+    margin:150px 0 20px 0;
+    text-align: left;
+}
+
+.input {
+    margin:7px 0;
+    padding:10px 10px;
+    width: 700px;
+}
+.button{
+    margin:0 20px 0 0;
+    float:right;
+}
+td{
+    text-align: left;
+}
+
+
+#tab1 tr{
+    display: none;
+}
+/*
+.tab1 {
+    display: none;
+}
+
+*/
+
+
+
+
+
+
+/*
+.step{
+
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+} */

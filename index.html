@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <h1>Register:</h1>
+        <table>
+        <form name="register" id="register" action="" onsubmit="return Tarkasta()" method="post">
+        <div id="tab1">
+        <tr class="tab1">
+            <td>Name:<input class="input" value"" type="text" placeholder="First name..." id="firstname" name="firstname"></td>
+        </tr>
+        <tr class="tab1">
+            <td><input class="input" value="" type="text" placeholder="Last name..." name="lastname"></td>
+        </tr>
+            <tr class="tab1">
+            <td class="button"><input type="submit" value="Next" name="next"></td>
+            </tr>
+            
+        </div>
+            <div id="tab2">
+                
+        <tr>
+            <td>Contact Info:<input class="input" type="text" placeholder="E-mail..." name="email"></td>
+        </tr>
+        <tr>
+            <td><input class="input" type="text" placeholder="Phone..." name="phone"></td>
+        </tr>
+            <td class="button"><input type="submit" value="Next" name="Next"></td>
+            <td class="button"><input type="submit" value="Previous" name="previous"></td> 
+            </div>
+        </form>
+        </table>
+        
+    </div>
+    <div>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+    </div>
+    
+    
+    
+    <script src="script.js" type="text/jscript"></script>
+</body>
+</html>
